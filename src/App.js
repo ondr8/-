@@ -1,3 +1,4 @@
+import './hub.css';
 import './App.css';
 import Header from './components/header/Header.js';
 import Nav_bar from './components/nav-bar/Nav-bar.js';
@@ -8,7 +9,7 @@ function App() {
     <div className='wrapper'>
       <Header />
       <Nav_bar />
-      <Profile />
+      <Profile name={"444"}/>
     </div>
   );
 }

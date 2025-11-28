@@ -1,0 +1,25 @@
+.nav-bar {
+  grid-area: nav-bar;
+}
+
+.links a {
+  text-align: right;
+  transition: 0.5s;
+}
+
+.links a:hover {
+  color: aqua;
+  text-shadow: 2px 2px 50px rgba(0, 150, 200);
+  transform: rotate(4deg) scale(1.07);
+  transform-origin: right bottom;
+}
+
+.links {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.2rem;
+  height: 50%;
+  margin-top: 5vh;
+}
